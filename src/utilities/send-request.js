@@ -17,7 +17,7 @@ export default async function sendRequest(url, method= 'GET', payload = null) {
     }
     const token = getToken();
     if (token) {
-        //need to add an authorization header
+        //need to add an authorization header 
         //use the logical OR assignment operator, only asigns object if options.headers is falsy
         options.headers ||= {};
         options.headers.Authorization = `Bearer ${token}`;

@@ -1,6 +1,6 @@
-# MERN-Stack
+# MERN-Stack Template
 
-Template for future MERN-Stack projects
+Use for future MERN-Stack projects
 
 ## How-to
 
@@ -8,7 +8,8 @@ Here’s the process to create a new MERN-Stack project that starts with the inf
 
 ### 1. Clone Repo
 
-Clone the mern-infrastructure repo: git clone url of mern-infrastructure name-of-project
+Clone the mern-infrastructure repo: git clone git@github.com:amandaputney/MERN-stack-template.git INSERT:name-of-new-project
+<br>
 Note that the folder created will be same as name-of-project instead of mern-infrastructure
 
 cd name-of-project

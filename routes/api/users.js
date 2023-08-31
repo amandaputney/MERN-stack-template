@@ -15,4 +15,3 @@ router.get('/check-token', ensureLoggedIn, usersCtrl.checkToken);
 
 module.exports = router;
 //dont forget to mount this router in server.js
-

@@ -12,8 +12,8 @@ const User = require('./models/user');
 // const Order = require('./models/order');
 
 // Local variables will come in handy for holding retrieved documents
-let user, item, category, order;
-let users, items, categories, orders;
+// let user, item, category, order;
+// let users, items, categories, orders;
 
 //create user example
 //const user = await User.create({name: Larua, email: 'laura2@gmail.com, password: 'abcd})

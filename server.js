@@ -30,7 +30,7 @@ app.use(require('./config/checkToken'));
 const port = process.env.PORT || 3001;
 
 //put API ROUTES HERE, before the "catch all" route
-//ajax requests
+//ajax requests 
 app.use('/api/users', require('./routes/api/users'));
 
  
