@@ -35,7 +35,7 @@ export default class SignUpForm extends Component {
               //will resolve to the user object included in the payload of the
               //JSON Web TOekn (JWT)
               const user = await signUp(formData);
-              this.props.setUser();
+              this.props.setUser(user);
             } catch {
             //an error occured --> maybe a duplicate email
             this.setState({error: 'Sign-Up failed, please try again.'})

@@ -11,7 +11,7 @@ export async function signUp(userData) {
   localStorage.setItem('token', token);
   // Baby step by returning whatever is sent back by the server
   //TODO: return user object from token instead
-  return getUser;
+  return getUser();
 }
 
 export async function login(credentials) {
